@@ -10,6 +10,13 @@ public class Main {
             System.out.println("This is an expression, too");
         }
 
+        // write down what parts of the code are expressions.
+        int score = 100; // score = 100;
+        if (score > 99){ // score > 99
+            System.out.println("You got the high score!"); // "you got the high score!"
+            score = 0; // score = 0
+        }
+
 
 
 
