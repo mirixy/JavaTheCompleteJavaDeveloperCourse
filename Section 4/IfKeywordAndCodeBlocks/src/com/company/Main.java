@@ -49,7 +49,7 @@ public class Main {
 			System.out.println("Your final score was " + finalScore);
 		}*/
 
-		// Using a Method - my Solution
+		// Using a Method - my Solution / I am ahead of the tutorial
 		myMethod(4000, 5, 100);
 		myMethod(10000, 8, 200);
 
