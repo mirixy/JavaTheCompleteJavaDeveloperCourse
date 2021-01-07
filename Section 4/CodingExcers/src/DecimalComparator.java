@@ -14,7 +14,7 @@ public class DecimalComparator {
 
 
     }
-    /*public static boolean areEqualByThreeDecimalPlaces(double numberOne, double numberTwo){
+    /* public static boolean areEqualByThreeDecimalPlaces(double numberOne, double numberTwo){
             double difference = Math.abs((double) (numberOne - numberTwo));
 
             return (difference < 0.0009);
