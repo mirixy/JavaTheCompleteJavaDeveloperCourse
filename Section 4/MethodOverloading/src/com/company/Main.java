@@ -8,8 +8,7 @@ public class Main {
 	    calculateScore();
 
 	    // Challenge
-        calcFeetAndInchesToCentimeters(6,12);
-        calcFeetAndInchesToCentimeters(50);
+        calcFeetAndInchesToCentimeters(7,5);
         // ende
     }
 
@@ -31,7 +30,7 @@ public class Main {
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
 
         if(feet >= 0 && inches >=0 && inches <= 12){
-            double centimeterInches = inches * 2.54d + (feet / 0.032808);
+            double centimeterInches = (inches * 2.54d) + ((feet * 12) * 2.54d);
             System.out.println("centimeters " + centimeterInches);
             calcFeetAndInchesToCentimeters(inches);
             return centimeterInches;
@@ -43,7 +42,7 @@ public class Main {
 
         if(inches >= 0 ){
             double foot = inches / 12;
-            System.out.println("inches " + foot);
+            System.out.println("feet = " + foot);
             return foot;
         } else return -1;
 
