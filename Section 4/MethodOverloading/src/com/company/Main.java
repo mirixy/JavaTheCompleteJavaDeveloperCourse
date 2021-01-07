@@ -9,6 +9,7 @@ public class Main {
 
 	    // Challenge
         calcFeetAndInchesToCentimeters(7,5);
+        calcFeetAndInchesToCentimeters(50);
         // ende
     }
 
@@ -29,22 +30,26 @@ public class Main {
     //region Challenge Code
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
 
-        if(feet >= 0 && inches >=0 && inches <= 12){
-            double centimeterInches = (inches * 2.54d) + ((feet * 12) * 2.54d);
-            System.out.println("centimeters " + centimeterInches);
-            calcFeetAndInchesToCentimeters(inches);
-            return centimeterInches;
-        } else return -1;
-
+        if(feet < 0 && inches < 0 && inches > 12){
+            return -1;
+        }
+        double centimeterInches = (inches * 2.54d) + ((feet * 12) * 2.54d);
+        System.out.println(feet + " feet "+ inches + " inches =  " + centimeterInches + " cm");
+        return centimeterInches;
     }
 
     public static double calcFeetAndInchesToCentimeters(double inches) {
 
-        if(inches >= 0 ){
-            double foot = inches / 12;
-            System.out.println("feet = " + foot);
-            return foot;
-        } else return -1;
+        if(inches < 0 ){
+            return -1;
+
+        }
+        // I calculatet it in double without casting an int.
+        double feet = (int) inches / 12;
+        // almost right remaining inches are missing
+        double remainingInches = (int) inches % 12;
+        System.out.println(inches + " inches is equal to " + feet + " feet and " + remainingInches + " inches");
+        return calcFeetAndInchesToCentimeters(feet, remainingInches);
 
     }
     //endregion
