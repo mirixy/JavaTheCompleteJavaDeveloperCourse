@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        System.out.println(getDurationString(160, 9));
-        System.out.println(getDurationString(3600));
+        System.out.println(getDurationString(65, 45));
+        System.out.println(getDurationString(3945));
     }
 
     private static String getDurationString (int minutes, int seconds) {
@@ -25,16 +25,16 @@ public class Main {
             if (hours < 10){
                 hoursString = "0" + hoursString;
             }
-            String secondssString = seconds + "s";
+            String secondsString = seconds + "s";
             if (seconds < 10){
-                secondssString = "0" + secondssString;
+                secondsString = "0" + secondsString;
             }
-            String minutessString = minutesRemain + "m ";
-            if (minutes < 10) {
-                minutessString = "0" + minutessString;
+            String minutesString = minutesRemain + "m ";
+            if (minutesRemain < 10) {
+                minutesString = "0" + minutesString;
             }
 
-            return hoursString  + minutessString  + secondssString ;
+            return hoursString  + minutesString  + secondsString ;
 
 
     }
