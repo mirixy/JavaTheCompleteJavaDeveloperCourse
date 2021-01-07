@@ -4,34 +4,36 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        getDurationString(61, 0);
-        getDurationString(3600);
+        System.out.println(getDurationString(61, 9));
+        System.out.println(getDurationString(3600));
     }
 
-    public static int getDurationString (int minutes, int seconds) {
-        if ( minutes < 0 && seconds < 0 && seconds > 59) {
-            System.out.println("Invalid value");
-            return -1;
+    private static String getDurationString (int minutes, int seconds) {
+        if ( minutes < 0 || seconds < 0 || seconds > 59) {
+            return "Invalid value";
         }
 
 
-        int calcSecondsToMinutes = seconds / 60;
-        int secondsR = seconds % 60;
-        int calcMinutes = calcSecondsToMinutes + minutes;
-        int hours = calcMinutes / 60;
-        int minutesRemain = calcMinutes % 60;
-        if (secondsR == 0 && minutesRemain > 0 && hours > 0 ){
-            System.out.println(hours + "h " + minutesRemain + "m " + "00s");
+//       int calcSecondsToMinutes = seconds / 60;
+//       int secondsR = seconds % 60;
+//       int calcMinutes = calcSecondsToMinutes + minutes;
+
+        else if (seconds < 10 && minutes > 0  ) {
+            int hours = minutes / 60;
+            int minutesRemain = minutes % 60;
+            return hours + "h " + minutesRemain + "m 0" + seconds + "s";
         }
-        else
-        System.out.println(hours + "h " + minutesRemain + "m " + secondsR + "s");
-        return 0;
+        else {
+            int hours = minutes / 60;
+            int minutesRemain = minutes % 60;
+            return hours + "h " + minutesRemain + "m " + seconds + "s";
+        }
 
     }
-    public static int getDurationString (int seconds) {
+    private static String getDurationString (int seconds) {
         if ( seconds < 0) {
-            System.out.println("Invalid value");
-            return -1;
+
+            return "Invalid value";
         }
         int minutes = seconds / 60;
         int secondsR = seconds % 60;
