@@ -1,7 +1,7 @@
 package com.company;
 
 public class Main {
-
+    private static final String INVALID_VALUE_MESSAGE = "Invalid value";
     public static void main(String[] args) {
 	// write your code here
         System.out.println(getDurationString(65, 45));
@@ -10,7 +10,7 @@ public class Main {
 
     private static String getDurationString (int minutes, int seconds) {
         if ( minutes < 0 || seconds < 0 || seconds > 59) {
-            return "Invalid value";
+            return INVALID_VALUE_MESSAGE;
         }
 
 
@@ -41,7 +41,7 @@ public class Main {
     private static String getDurationString (int seconds) {
         if ( seconds < 0) {
 
-            return "Invalid value";
+            return INVALID_VALUE_MESSAGE;
         }
         int minutes = seconds / 60;
         int secondsR = seconds % 60;
