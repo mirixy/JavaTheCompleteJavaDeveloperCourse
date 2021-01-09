@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b26dfa8-43c6-4c0e-9918-1386aea70a49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Section4/AreaCalculator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/AreaCalculator/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/AreaCalculator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/AreaCalculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/AreaCalculator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/AreaCalculator/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/AreaCalculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/AreaCalculator/AreaCalculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/CodingExcers/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/CodingExcers/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/CodingExcers/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/CodingExcers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/CodingExcers/CodingExcers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/CodingExcers/out/production/CodingExcers/BarkingDog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/CodingExcers/out/production/CodingExcers/DecimalComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/CodingExcers/out/production/CodingExcers/LeapYear.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/CodingExcers/out/production/CodingExcers/MegaBytesConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/CodingExcers/out/production/CodingExcers/SpeedConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/IfKeywordAndCodeBlocks/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/IfKeywordAndCodeBlocks/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/IfKeywordAndCodeBlocks/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/IfKeywordAndCodeBlocks/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/IfKeywordAndCodeBlocks/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/IfKeywordAndCodeBlocks/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/IfKeywordAndCodeBlocks/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/IfKeywordAndCodeBlocks/IfKeywordAndCodeBlocks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/IntEqualityPrinter/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/IntEqualityPrinter/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/IntEqualityPrinter/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/IntEqualityPrinter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/IntEqualityPrinter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/IntEqualityPrinter/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/IntEqualityPrinter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/IntEqualityPrinter/IntEqualityPrinter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/KeyWordsAndExpressions/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/KeyWordsAndExpressions/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/KeyWordsAndExpressions/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/KeyWordsAndExpressions/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/KeyWordsAndExpressions/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/KeyWordsAndExpressions/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/KeyWordsAndExpressions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/KeyWordsAndExpressions/KeyWordsAndExpressions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/MethodOverloading/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/MethodOverloading/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/MethodOverloading/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/MethodOverloading/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/MethodOverloading/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/MethodOverloading/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/MethodOverloading/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/MethodOverloading/MethodOverloading.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/Methods/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/Methods/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/Methods/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/Methods/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/Methods/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/Methods/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/Methods/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/Methods/Methods.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/MinutesToYearsDaysCalculator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/MinutesToYearsDaysCalculator/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/MinutesToYearsDaysCalculator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/MinutesToYearsDaysCalculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/MinutesToYearsDaysCalculator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/MinutesToYearsDaysCalculator/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/MinutesToYearsDaysCalculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/MinutesToYearsDaysCalculator/MinutesToYearsDaysCalculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/PlayingCat/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/PlayingCat/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/PlayingCat/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/PlayingCat/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/PlayingCat/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/PlayingCat/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/PlayingCat/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/PlayingCat/PlayingCat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/SecondsAndMinutesChallenge/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/SecondsAndMinutesChallenge/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/SecondsAndMinutesChallenge/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/SecondsAndMinutesChallenge/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/SecondsAndMinutesChallenge/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/SecondsAndMinutesChallenge/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/SecondsAndMinutesChallenge/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/SecondsAndMinutesChallenge/SecondsAndMinutesChallenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/StatementsWhiteSpaceAndIndenting/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/StatementsWhiteSpaceAndIndenting/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/StatementsWhiteSpaceAndIndenting/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/StatementsWhiteSpaceAndIndenting/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/StatementsWhiteSpaceAndIndenting/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/StatementsWhiteSpaceAndIndenting/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/StatementsWhiteSpaceAndIndenting/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section4/StatementsWhiteSpaceAndIndenting/StatementsWhiteSpaceAndIndenting.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1mnl1LmocdYhLuuAs5S8Sx13rBN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="PlayingCat" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b26dfa8-43c6-4c0e-9918-1386aea70a49" name="Default Changelist" comment="" />
+      <created>1610137021432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610137021432</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Coding Exercise isCatPlaying. Done ! Easy enough.">
+      <created>1610137761987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610137761987</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changed Folder">
+      <created>1610192483549</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610192483549</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changed Folder">
+      <created>1610192662966</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610192662966</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Coding Exercise isCatPlaying. Done ! Easy enough." />
+    <MESSAGE value="Changed Folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Folder" />
+  </component>
+</project>
