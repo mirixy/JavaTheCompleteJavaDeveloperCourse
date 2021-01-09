@@ -3,11 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	// Print out the Day of the Week
         printDayOfTheWeek(7);
     }
 
-    public static void printDayOfTheWeek(int day) {
+    private static void printDayOfTheWeek(int day) {
         switch (day) {
             case 0:
                 System.out.println("Sunday");
@@ -69,7 +69,5 @@ public class Main {
         }
     }
 
-
-    // Bonus Challenge if Else
 
 }
