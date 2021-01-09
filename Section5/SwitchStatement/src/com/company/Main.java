@@ -1,6 +1,7 @@
 package com.company;
 
 import java.text.Format;
+import java.util.Locale;
 
 public class Main {
 
@@ -56,6 +57,22 @@ public class Main {
 
             default:
                 System.out.println("Char Case not found");
+                break;
+        }
+
+
+        String month = "JanuaRy";
+        switch (month.toLowerCase()) {
+            case "january":
+                System.out.println("Jan");
+                break;
+
+            case "february":
+                System.out.println("Feb");
+                break;
+
+            default:
+                System.out.println("Was not January or February");
                 break;
         }
 
