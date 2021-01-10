@@ -28,3 +28,10 @@ public class Main {
 
     }
 }
+
+/*
+    At first I didn't understand that. So I googled it to save some time.
+    As soon as I saw an overview of how to do it, it became clear to me.
+    In fact I should have read the instructions more clearly. That is tottaly
+    my fault.
+ */
