@@ -11,10 +11,7 @@ public class Main {
         }
 
         int divisorOne = 0;
-        int divisorTwo = 0;
-        int firstOld = 0;
-        int secondOld = 0;
-        int firstDiv = 1;
+
 
 
         for(int i = 1; i < 100; i++){
