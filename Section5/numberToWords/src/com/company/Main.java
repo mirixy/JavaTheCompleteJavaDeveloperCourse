@@ -3,68 +3,73 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println(numberToWords(1010));
-        System.out.println(getDigitCount(1010));
+        // write your code here
+        numberToWords(1010);
+
     }
-    public static String numberToWords(int number) {
-        if(number < 0) {
+
+    public static void numberToWords(int number) {
+        if (number < 0) {
             System.out.println("Invalid Value");
         }
         number = reverse(number);
         String s = "";
-        while(number != 0){
+        while (number != 0) {
             int rem = number % 10;
             number /= 10;
-            switch(rem) {
+            switch (rem) {
                 case 0:
-                     s += "Zero ";
-                     break;
+                    s += "Zero ";
+                    break;
                 case 1:
-                     s += "One " ;
-                     break;
+                    s += "One ";
+                    break;
                 case 2:
-                    s += "Two " ;
+                    s += "Two ";
                     break;
                 case 3:
-                     s += "Three " ;
-                     break;
+                    s += "Three ";
+                    break;
                 case 4:
-                     s += "Four ";
-                     break;
+                    s += "Four ";
+                    break;
                 case 5:
-                     s += "Five " ;
-                     break;
+                    s += "Five ";
+                    break;
                 case 6:
-                     s += "Six " ;
-                     break;
+                    s += "Six ";
+                    break;
                 case 7:
-                     s += "Seven ";
-                     break;
+                    s += "Seven ";
+                    break;
                 case 8:
-                    s += "Eight " ;
+                    s += "Eight ";
                     break;
                 case 9:
-                     s += "Nine " ;
-                     break;
+                    s += "Nine ";
+                    break;
                 default:
                     break;
             }
 
         }
 
-        if(getDigitCount(number) != getDigitCount(reverse(number))){
-            s = s + "Zero ";
+        int dc = getDigitCount(number);
+        String nr = String.format("%2d", number);
+
+        if (dc != nr.length()) {
+            s += "Zero ";
         }
-        return s;
+        System.out.println(s);
 
     }
-    public static int reverse(int number){
+
+    public static int reverse(int number) {
         String n = "";
-        while(number != 0){
+        while (number != 0) {
             int rem = number % 10;
             number /= 10;
-            switch(rem) {
+            switch (rem) {
                 case 0:
                     n += "0";
                     break;
@@ -102,12 +107,12 @@ public class Main {
         return Integer.parseInt(n);
     }
 
-    public static int getDigitCount(int number){
-        if(number < 0){
+    public static int getDigitCount(int number) {
+        if (number < 0) {
             return -1;
         }
         int count = 0;
-        while(number != 0){
+        while (number != 0) {
             number /= 10;
             count++;
         }
