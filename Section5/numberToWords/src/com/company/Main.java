@@ -4,7 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        numberToWords(1010);
+        numberToWords(100);
+        System.out.println(reverse(-121));
+        System.out.println(getDigitCount(-12));
+
 
     }
 
@@ -12,60 +15,69 @@ public class Main {
         if (number < 0) {
             System.out.println("Invalid Value");
         }
-        number = reverse(number);
-        String s = "";
-        while (number != 0) {
-            int rem = number % 10;
-            number /= 10;
-            switch (rem) {
-                case 0:
+        else{
+            int dc = getDigitCount(number);
+            number = reverse(number);
+            String s = "";
+            String nr = Integer.toString(number);
+            int diff =  dc - nr.length();
+
+            while (number != 0) {
+                int rem = number % 10;
+                number /= 10;
+                switch (rem) {
+                    case 0:
+                        s += "Zero ";
+                        break;
+                    case 1:
+                        s += "One ";
+                        break;
+                    case 2:
+                        s += "Two ";
+                        break;
+                    case 3:
+                        s += "Three ";
+                        break;
+                    case 4:
+                        s += "Four ";
+                        break;
+                    case 5:
+                        s += "Five ";
+                        break;
+                    case 6:
+                        s += "Six ";
+                        break;
+                    case 7:
+                        s += "Seven ";
+                        break;
+                    case 8:
+                        s += "Eight ";
+                        break;
+                    case 9:
+                        s += "Nine ";
+                        break;
+                    default:
+                        break;
+                }
+
+            }
+            if (dc != nr.length()) {
+                for(int i = 0; i < diff; i++){
                     s += "Zero ";
-                    break;
-                case 1:
-                    s += "One ";
-                    break;
-                case 2:
-                    s += "Two ";
-                    break;
-                case 3:
-                    s += "Three ";
-                    break;
-                case 4:
-                    s += "Four ";
-                    break;
-                case 5:
-                    s += "Five ";
-                    break;
-                case 6:
-                    s += "Six ";
-                    break;
-                case 7:
-                    s += "Seven ";
-                    break;
-                case 8:
-                    s += "Eight ";
-                    break;
-                case 9:
-                    s += "Nine ";
-                    break;
-                default:
-                    break;
+                }
             }
 
+            System.out.println(s);
         }
-
-        int dc = getDigitCount(number);
-        String nr = String.format("%2d", number);
-
-        if (dc != nr.length()) {
-            s += "Zero ";
-        }
-        System.out.println(s);
-
     }
 
     public static int reverse(int number) {
         String n = "";
+        boolean wasNeg = false;
+        if(number<0){
+            number = number * -1;
+            wasNeg = true;
+        }
         while (number != 0) {
             int rem = number % 10;
             number /= 10;
@@ -104,7 +116,16 @@ public class Main {
                     break;
             }
         }
-        return Integer.parseInt(n);
+        if(wasNeg){
+            int neg = Integer.parseInt(n) ;
+            neg = neg - (neg *2 );
+            return neg;
+        }
+        else{
+            number = Integer.parseInt(n);
+            return number;
+        }
+
     }
 
     public static int getDigitCount(int number) {
@@ -116,6 +137,7 @@ public class Main {
             number /= 10;
             count++;
         }
+
         return count;
     }
 }
