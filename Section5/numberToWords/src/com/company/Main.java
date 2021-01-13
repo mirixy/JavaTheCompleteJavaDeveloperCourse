@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        numberToWords(100);
+        numberToWords(1000);
         System.out.println(reverse(-121));
         System.out.println(getDigitCount(-12));
 
@@ -15,7 +15,11 @@ public class Main {
         if (number < 0) {
             System.out.println("Invalid Value");
         }
+
         else{
+            if(number == 0){
+                System.out.println("Zero");
+            }
             int dc = getDigitCount(number);
             number = reverse(number);
             String s = "";
@@ -55,8 +59,6 @@ public class Main {
                         break;
                     case 9:
                         s += "Nine ";
-                        break;
-                    default:
                         break;
                 }
 
@@ -132,7 +134,11 @@ public class Main {
         if (number < 0) {
             return -1;
         }
+
         int count = 0;
+        if(number == 0){
+            ++count;
+        }
         while (number != 0) {
             number /= 10;
             count++;
@@ -141,3 +147,17 @@ public class Main {
         return count;
     }
 }
+
+/* The solution for Udemy in the reverse method was this
+    int rev = 0;
+
+        while(number != 0){
+            int digit = number % 10;
+            rev = rev * 10 + digit;
+            number /= 10;
+        }
+        return rev;
+ */
+/* What is so different from my method ? It puts out the same result or
+    am I wrong?
+ */
