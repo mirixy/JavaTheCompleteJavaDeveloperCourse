@@ -7,6 +7,7 @@ public class Main {
         numberToWords(1000);
         System.out.println(reverse(-121));
         System.out.println(getDigitCount(-12));
+        System.out.println(reversed(-121));
 
 
     }
@@ -145,6 +146,17 @@ public class Main {
         }
 
         return count;
+    }
+
+    public static int reversed(int number){
+        int rev = 0;
+
+        while(number != 0){
+            int digit = number % 10;
+            rev = rev * 10 + digit;
+            number /= 10;
+        }
+        return rev;
     }
 }
 
