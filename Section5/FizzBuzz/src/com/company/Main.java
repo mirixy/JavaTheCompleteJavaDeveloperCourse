@@ -12,7 +12,7 @@ public class Main {
     }
     private static void fizzBuzz(int n){
         int i = 1;
-        while ( i < n){
+        while ( i <= n){
             if (i % 3 == 0 && i % 5 == 0){
                 System.out.println("FizzBuzz");
                 i++;
